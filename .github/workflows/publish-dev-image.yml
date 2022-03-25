@@ -22,3 +22,4 @@ jobs:
           context: .
           push: true
           tags: ghcr.io/entrixiii/docker-crossbuild-testing:dev
+          platforms: linux/amd64,linux/arm64
